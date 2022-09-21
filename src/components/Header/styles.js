@@ -21,12 +21,16 @@ export const Logo = styled.h2`
   font-size: 2rem;
   font-weight: bold;
   color: white;
+  animation: bounce;
+  animation-duration: 2.5s;
 `;
 
 export const Navigation = styled.nav`
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  animation: bounce;
+  animation-duration: 2.5s;
 `;
 
 export const NavItem = styled.li`
