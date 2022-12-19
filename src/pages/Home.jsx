@@ -6,7 +6,7 @@ import "../styles/Global.css";
 export default function Home() {
   return (
     <>
-      <div className="cont">
+      <div className="container-home">
         <Header />
         <Content />
       </div>

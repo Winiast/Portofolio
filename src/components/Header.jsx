@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Header.css";
-import { FaEnvira } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -9,25 +8,35 @@ export default function Header() {
         <div className="container">
           <nav className="navbar">
             <div className="navbar__logo">
-              <FaEnvira />
+              <img src={require("../assets/Logo.png")} alt="logo" />
             </div>
 
             <div className="navbar__links">
               <p className="burguer"></p>
               <ul>
-                <li>
+                <li className="undeline">
                   <a href="#" class="">
-                    Home
+                    Inicio
                   </a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#">Sobre</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#">Skills</a>
                 </li>
                 <li>
-                  <a href="#">Project</a>
+                  <a href="#">Portfólio</a>
+                </li>
+                <li>
+                  <a href="#">Contato</a>
+                </li>
+
+                <li>
+                  <div className="toglle">
+                    <input type="checkbox" id="switch" />
+                    <label for="switch">Toggle</label>
+                  </div>
                 </li>
               </ul>
             </div>
