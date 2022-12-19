@@ -32,7 +32,11 @@ export default function Content() {
               </div>
               <div className="about__image">
                 {/* <img src="" alt="" /> */}
-                <BsPersonFill color="white" font-size="500px" />
+                <img
+                  src={require("../assets/Perfil.jpg")}
+                  alt="Foto de Perfil"
+                  className="perfil_image"
+                />
               </div>
               <div className="about__atuation">
                 <div className="icon01">
