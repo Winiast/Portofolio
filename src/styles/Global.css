@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #222222;
 }
 
 :root {
@@ -12,4 +13,5 @@
 
 .container-home {
   background-color: #222222;
+  height: 100vh;
 }

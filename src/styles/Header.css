@@ -1,9 +1,10 @@
 .navbar {
   background-color: #222222;
   color: #ffffff;
-  /* padding: 30px; */
   height: 15vh;
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-weight: bold;
   text-align: center;
   justify-content: center;
@@ -115,4 +116,15 @@
   width: 50px;
 }
 
-/*  */
+.menu-resp {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .menu-resp {
+    display: block;
+  }
+  .navbar__links ul a {
+    display: none;
+  }
+}

@@ -1,7 +1,10 @@
-import React from "react";
+import { React, useState } from "react";
+import { FcDatabase } from "react-icons/fc";
 import "../styles/Header.css";
 
 export default function Header() {
+  const [themeDark, setThemeDark] = useState(false);
+
   return (
     <>
       <header>
@@ -12,10 +15,10 @@ export default function Header() {
             </div>
 
             <div className="navbar__links">
-              <p className="burguer"></p>
+              <FcDatabase fontSize={40} className="menu-resp" />
               <ul>
                 <li className="undeline">
-                  <a href="#" class="">
+                  <a href="#" className="">
                     Inicio
                   </a>
                 </li>
@@ -34,7 +37,14 @@ export default function Header() {
 
                 <li>
                   <div className="toglle">
-                    <input type="checkbox" id="switch" />
+                    <input
+                      type="checkbox"
+                      id="switch"
+                      onClick={() => {
+                        setThemeDark(!themeDark);
+                        console.log(themeDark);
+                      }}
+                    />
                     <label for="switch">Toggle</label>
                   </div>
                 </li>
