@@ -47,8 +47,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
-  line-height: 35px;
+  font-size: 4.2rem;
   color: #ffffff;
 }
 
@@ -135,6 +134,11 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+  }
+
+  .about-content .name {
+    align-self: center;
+    text-align: center;
   }
   .text-about {
     text-align: center;
