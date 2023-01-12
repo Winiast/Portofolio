@@ -15,7 +15,7 @@
 
 .navbar__links {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   flex-grow: 1;
   color: rgba(255, 255, 255, 0.5);

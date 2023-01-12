@@ -18,21 +18,21 @@ export default function Header() {
               <FcDatabase fontSize={40} className="menu-resp" />
               <ul>
                 <li className="undeline">
-                  <a href="#" className="">
+                  <a href="/#" className="">
                     Inicio
                   </a>
                 </li>
                 <li>
-                  <a href="#">Sobre</a>
+                  <a href="/about">Sobre</a>
                 </li>
                 <li>
-                  <a href="#">Skills</a>
+                  <a href="/skills">Skills</a>
                 </li>
                 <li>
-                  <a href="#">Portfólio</a>
+                  <a href="/projects">Portfólio</a>
                 </li>
                 <li>
-                  <a href="#">Contato</a>
+                  <a href="/contact">Contato</a>
                 </li>
 
                 <li>

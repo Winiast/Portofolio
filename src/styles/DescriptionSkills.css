@@ -1,0 +1,31 @@
+.container-descript {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-cont {
+  font-size: 2rem;
+  margin: 10px;
+  color: rgb(3, 136, 208);
+}
+.descript-text p {
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+  flex-direction: column;
+  text-align: justify;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.descript-text {
+  color: white;
+}
+
+.descript-text h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+}
