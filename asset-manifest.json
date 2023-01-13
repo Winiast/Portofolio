@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Winiast/Portofolio/static/css/main.33e62808.css",
+    "main.js": "/Winiast/Portofolio/static/js/main.faacb0b1.js",
+    "static/media/Foto.png": "/Winiast/Portofolio/static/media/Foto.3a170e72d70c174ca6d1.png",
+    "index.html": "/Winiast/Portofolio/index.html",
+    "main.33e62808.css.map": "/Winiast/Portofolio/static/css/main.33e62808.css.map",
+    "main.faacb0b1.js.map": "/Winiast/Portofolio/static/js/main.faacb0b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33e62808.css",
+    "static/js/main.faacb0b1.js"
+  ]
+}
