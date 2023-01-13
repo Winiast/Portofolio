@@ -19,13 +19,21 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/Winiast"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
               </li>
 
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/meninoGuxta/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Instagram
                 </a>
               </li>
