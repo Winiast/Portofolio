@@ -34,7 +34,51 @@ export default function Skills() {
         </div>
 
         <div className="container-exp-timeCard">
-          <CardTimePratice />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
+          <CardTimePratice
+            nameLanguage="JavaScript"
+            timePratice="1 Ano"
+            description="Trabalhei com Javascript em alguns projetos dentro da SIP Digital"
+          />
         </div>
       </div>
       <Footer />

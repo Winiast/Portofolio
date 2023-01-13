@@ -130,4 +130,8 @@
   .navbar__logo {
     width: 55%;
   }
+
+  .toglle {
+    display: none;
+  }
 }
