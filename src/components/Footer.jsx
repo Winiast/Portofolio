@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div className="copy">
-            <p>© 2020 - Gustavo Henrique Ferreira da Silva</p>
+            <p>© 2023 - Gustavo Henrique Ferreira da Silva</p>
           </div>
         </div>
       </div>

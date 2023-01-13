@@ -9,6 +9,13 @@
   background-color: #222222;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #222222;
+}
+
 .content-about {
   background-color: #222222;
   display: flex;
