@@ -1,0 +1,16 @@
+.card-container-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.card-container-project img {
+  width: 100%;
+  border-radius: 25px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 0px 1px 5px rgba(254, 251, 251, 0.25);
+}
