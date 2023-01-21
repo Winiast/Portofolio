@@ -19,17 +19,19 @@ export default function Skills() {
             <DescriptionSkills
               title="UX/UI Design"
               icon="BsPencil"
-              description="Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou"
+              description="Ao se referir a Lorem ipsum, diferentes expressões são usadas, nomeadamente texto de preenchimento , texto fictício , texto cego ou texto do espaço reservado: em suma, seu significado também pode ser zero, mas sua utilidade é tão clara quanto ao longo dos séculos e resiste às versões irônicas e modernas que vieram com a chegada da web."
             />
             <DescriptionSkills
               title="UX/UI Design"
               icon="BsPencil"
-              description="Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou"
+              description="Ao se referir a Lorem ipsum, diferentes expressões são usadas, nomeadamente texto de preenchimento , texto fictício , texto cego ou texto do espaço reservado: em suma, seu significado também pode ser zero, mas sua utilidade é tão clara quanto ao longo dos séculos e resiste às versões irônicas e modernas que vieram com a chegada da web.
+
+"
             />
             <DescriptionSkills
               title="UX/UI Design"
               icon="BsPencil"
-              description="Je obecně známou věcí, že člověk bývá při zkoumání grafického návrhu rozptylován okolním textem, pokud mu dává nějaký smysl. Úkolem Lorem Ipsum je pak nahradit klasický smysluplný text vhodnou bezvýznamovou alternativou"
+              description="Ao se referir a Lorem ipsum, diferentes expressões são usadas, nomeadamente texto de preenchimento , texto fictício , texto cego ou texto do espaço reservado: em suma, seu significado também pode ser zero, mas sua utilidade é tão clara quanto ao longo dos séculos e resiste às versões irônicas e modernas que vieram com a chegada da web."
             />
           </div>
 

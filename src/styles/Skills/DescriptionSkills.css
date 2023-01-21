@@ -1,6 +1,6 @@
-/* .container-descript {
+.container-descript {
   display: flex;
-  flex-direction: row;
+  padding: 10px;
 }
 
 .icon-cont {
@@ -8,15 +8,15 @@
   margin: 10px;
   color: rgb(3, 136, 208);
 }
+
 .descript-text p {
   display: flex;
-  padding-top: 10px;
-  width: 100%;
-  flex-direction: column;
-  text-align: justify;
+  padding: 10px;
   font-family: "Poppins";
   font-style: normal;
+  text-align: left;
   font-weight: 400;
+  font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -28,4 +28,4 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-} */
+}

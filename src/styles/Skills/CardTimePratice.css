@@ -8,9 +8,9 @@
   border: 5px solid #0479a7;
   border-radius: 20px;
   background-color: #252525;
-  padding: 20px;
   text-align: center;
   margin: 20px;
+  padding: 10px;
 }
 
 .container-timeCard h2 {
@@ -38,6 +38,10 @@
   font-size: 4rem;
 }
 
+.title-exp-timeCard {
+  border-bottom: 1px solid #03b09e;
+}
+
 /* Vai ser alterado para true ao girar o card com um efeito de hover */
 .container-text-timeCard {
   display: none;
@@ -46,5 +50,17 @@
 @media screen and (min-width: 728px) {
   .container-icon-timeCard {
     font-size: 6rem;
+  }
+
+  .title-exp-timeCard {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    width: 200px;
+    border-bottom: 1px solid #03b09e;
+  }
+
+  .container-timeCard {
+    width: 200px;
   }
 }
