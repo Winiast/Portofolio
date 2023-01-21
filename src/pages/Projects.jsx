@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import TextContentCenter from "../components/TextContentCenter";
-import CardProjetcs from "../components/CardProjects";
-import "../styles/Projects.css";
+import Header from "../components/Header/Header";
+import TextContentCenter from "../components/Skills/TextContentCenter";
+import Footer from "../components/Footer/Footer";
+// import CardProjetcs from "../components/Projects/CardProjetcs";
+import "../styles/Projects/Projects.css";
 
 export default function Projects() {
   return (
@@ -30,9 +30,9 @@ export default function Projects() {
         </div>
       </div>
       <div className="projects-container">
+        {/* <CardProjetcs />
         <CardProjetcs />
-        <CardProjetcs />
-        <CardProjetcs />
+        <CardProjetcs /> */}
       </div>
       <Footer />
     </>

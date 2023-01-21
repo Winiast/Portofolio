@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/TextContentCenter.css";
+import "../../styles/Skills/TextContentCenter.css";
 
 export default function TextContentCenter({ title }) {
   return (

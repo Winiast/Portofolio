@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { FcDatabase } from "react-icons/fc";
-import "../styles/Header.css";
+import "../../styles/Header/Header.css";
 
 export default function Header() {
   const [themeDark, setThemeDark] = useState(false);
@@ -11,7 +11,7 @@ export default function Header() {
         <div className="container">
           <nav className="navbar">
             <div className="navbar__logo">
-              <img src={require("../assets/Logo.png")} alt="logo" />
+              <img src={require("../../assets/Logo.png")} alt="logo" />
             </div>
 
             <div className="navbar__links">

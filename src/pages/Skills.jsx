@@ -1,10 +1,11 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import TextContentCenter from "../components/TextContentCenter";
-import DescriptionSkills from "../components/DescriptionSkills";
-import CardTimePratice from "../components/CardTimePratice";
-import "../styles/Skills.css";
+import Header from "../components/Header/Header";
+import TextContentCenter from "../components/Skills/TextContentCenter";
+import DescriptionSkills from "../components/Skills/DescriptionSkills";
+import CardTimePratice from "../components/Skills/CardTimePratice";
+import Footer from "../components/Footer/Footer";
+
+import "../styles/Skills/Skills.css";
 
 export default function Skills() {
   return (

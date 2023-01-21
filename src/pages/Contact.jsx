@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import TextContentCenter from "../components/TextContentCenter";
-import DescriptionSkills from "../components/DescriptionSkills";
-import "../styles/Contact.css";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import TextContentCenter from "../components/Skills/TextContentCenter";
+import DescriptionSkills from "../components/Skills/DescriptionSkills";
+import "../styles/Contact/Contact.css";
 
 export default function Contact() {
   return (

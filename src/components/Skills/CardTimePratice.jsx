@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/CardTimePratice.css";
+import "../../styles/Skills/CardTimePratice.css";
 import { FaReact, FaJsSquare, FaNodeJs, FaJava } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3, SiTypescript, SiJavascript } from "react-icons/si";

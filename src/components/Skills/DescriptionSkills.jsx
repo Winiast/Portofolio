@@ -1,6 +1,6 @@
 import React from "react";
 import { BsPencil } from "react-icons/bs";
-import "../styles/DescriptionSkills.css";
+import "../../styles/Skills/DescriptionSkills.css";
 // Card da descricao da skills
 export default function DescriptionSkills({ title, icon, description }) {
   let valueOfIcon = "";
