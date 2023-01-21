@@ -1,5 +1,4 @@
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
@@ -10,10 +9,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
   },
   {
     path: "/skills",

@@ -1,19 +1,24 @@
 .container-textContent {
-  height: 100%;
-  width: 100%;
   display: flex;
-  align-items: flex-start;
   background-color: #252525;
-  border: 2px solid #333333;
+  border: 1px solid rgb(52, 51, 51);
 }
 
 .container-textContent h1 {
-  margin: 20px;
-  font-size: 4rem;
-  padding: 50px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   background-color: #252525;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   color: #ffffff;
+  padding: 40px;
+}
+
+@media screen and (min-width: 728px) {
+  .container-textContent h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    padding: 50px;
+  }
 }

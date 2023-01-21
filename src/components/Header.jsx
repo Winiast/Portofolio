@@ -19,14 +19,11 @@ export default function Header() {
               <ul>
                 <li className="undeline">
                   <a href="/#" className="">
-                    Inicio
+                    Sobre
                   </a>
                 </li>
                 <li>
-                  <a href="/about">Sobre</a>
-                </li>
-                <li>
-                  <a href="/skills">Skills</a>
+                  <a href="/skills">Habilidades</a>
                 </li>
                 <li>
                   <a href="/projects">Portfólio</a>
