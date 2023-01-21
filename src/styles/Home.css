@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 @media screen and (min-width: 600px) {
   /* .container-about {
     box-sizing: border-box;
@@ -10,12 +15,7 @@
     background-color: #222222;
   }
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #222222;
-  }
+
 
   .content-about {
     background-color: #222222;

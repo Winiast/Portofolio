@@ -1,49 +1,47 @@
-/* .menu-resp {
-  display: block;
+.toglle {
+  display: none;
+}
+
+.navbar {
+  padding: 10px;
 }
 .navbar__links ul a {
   display: none;
 }
-.navbar__logo {
-  width: 55%;
+
+.navbar {
+  background-color: #222222;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  display: flex;
 }
 
-.toglle {
-  display: none;
-} */
+.navbar__links {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 100%;
+}
+.navbar__links ul {
+  list-style: none;
+  display: flex;
+}
 
-@media screen and (min-width: 600px) {
-  /* .navbar {
-    background-color: #222222;
-    color: #ffffff;
-    height: 15vh;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 728px) {
+  .navbar__links ul a {
     display: flex;
-    flex-flow: row;
   }
 
-  .navbar__links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1;
-    color: rgba(255, 255, 255, 0.5);
-    padding: 0 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    width: 100%;
+  .menu-resp {
+    display: none;
   }
 
-  .navbar__links ul {
-    list-style: none;
+  .toglle {
     display: flex;
-    justify-content: flex-end;
   }
 
   .navbar__links a {
@@ -74,7 +72,6 @@
       right: auto;
       width: 100%;
     }
-
     .navbar__links a:hover {
       color: #ffffff;
     }
@@ -85,7 +82,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 10px;
-    margin-left: 30px;
   }
 
   .toglle input[type="checkbox"] {
@@ -128,8 +124,4 @@
   .toglle label:active:after {
     width: 50px;
   }
-
-  .menu-resp {
-    display: none;
-  } */
 }
