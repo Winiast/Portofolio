@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 // import CardProjetcs from "../components/Projects/CardProjetcs";
 import "../styles/Projects/Projects.css";
 
-export default function Projects() {
+function Projects() {
   return (
     <>
       <Header />
@@ -38,3 +38,5 @@ export default function Projects() {
     </>
   );
 }
+
+export default Projects;

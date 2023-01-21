@@ -1,6 +1,4 @@
 .container-timeCard {
-  width: 30%;
-  height: 100%;
   color: #edeaea;
   text-shadow: 1px 1px 1px #383636;
   display: flex;
@@ -9,10 +7,10 @@
   gap: 2rem;
   border: 5px solid #0479a7;
   border-radius: 20px;
-  padding: 25px;
-  margin-top: 30px;
   background-color: #252525;
-  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .container-timeCard h2 {
@@ -21,6 +19,8 @@
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
+  line-height: 2.5rem;
+  text-align: center;
   color: #edeaea;
 }
 
@@ -29,16 +29,22 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
+  text-align: center;
   color: #e1dddd;
   font-size: 1.3rem;
 }
 
+.container-icon-timeCard {
+  font-size: 4rem;
+}
+
+/* Vai ser alterado para true ao girar o card com um efeito de hover */
 .container-text-timeCard {
   display: none;
 }
 
-.container-icon-timeCard {
-  font-size: 5rem;
-  background-color: #252525;
-  text-shadow: none;
+@media screen and (min-width: 728px) {
+  .container-icon-timeCard {
+    font-size: 6rem;
+  }
 }
