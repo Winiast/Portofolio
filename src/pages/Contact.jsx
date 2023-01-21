@@ -33,18 +33,20 @@ export default function Contact() {
           <h2>Contate-me!</h2>
           <form>
             <div className="form-group">
-              <label htmlFor="name">
-                Nome
-                <input type="text" id="name" />
-              </label>
-              <label htmlFor="email">
-                E-mail
-                <input type="email" id="email" />
-              </label>
-              <label htmlFor="telefone" id="telefone">
-                Telefone
-                <input type="text" id="telefone" />
-              </label>
+              <div className="form-left">
+                <label htmlFor="name">
+                  Nome
+                  <input type="text" id="name" />
+                </label>
+                <label htmlFor="email">
+                  E-mail
+                  <input type="email" id="email" />
+                </label>
+                <label htmlFor="telefone" id="telefone">
+                  Telefone
+                  <input type="text" id="telefone" />
+                </label>
+              </div>
               <div className="assunto">
                 <label htmlFor="message">Mensagem</label>
                 <textarea id="message" rows="5"></textarea>
