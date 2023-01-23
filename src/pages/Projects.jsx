@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../components/Header/Header";
 import TextContentCenter from "../components/Skills/TextContentCenter";
 import Footer from "../components/Footer/Footer";
-// import CardProjetcs from "../components/Projects/CardProjetcs";
+import Card from "../components/Projects/Card";
 import "../styles/Projects/Projects.css";
 
 function Projects() {
   return (
-    <>
+    <div className="projects">
       <Header />
-      <TextContentCenter title="Portfolio de Projetos" />
+      <TextContentCenter title="Projetos" />
       <div className="container-portf">
         <h2 className="title">Projetos</h2>
         <div className="filter-container">
@@ -30,12 +30,12 @@ function Projects() {
         </div>
       </div>
       <div className="projects-container">
-        {/* <CardProjetcs />
-        <CardProjetcs />
-        <CardProjetcs /> */}
+        <Card />
+        <Card />
+        <Card />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
