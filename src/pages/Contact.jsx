@@ -7,7 +7,7 @@ import "../styles/Contact/Contact.css";
 
 export default function Contact() {
   return (
-    <>
+    <div className="container-contato">
       <Header />
       <TextContentCenter title="Contato" />
       <div className="container-contact">
@@ -36,20 +36,32 @@ export default function Contact() {
               <div className="form-left">
                 <label htmlFor="name">
                   Nome
-                  <input type="text" id="name" />
+                  <input type="text" id="name" placeholder="Digite seu nome" />
                 </label>
                 <label htmlFor="email">
                   E-mail
-                  <input type="email" id="email" />
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                  />
                 </label>
                 <label htmlFor="telefone" id="telefone">
                   Telefone
-                  <input type="text" id="telefone" />
+                  <input
+                    type="text"
+                    id="telefone"
+                    placeholder="Digite seu telefone"
+                  />
                 </label>
               </div>
               <div className="assunto">
                 <label htmlFor="message">Mensagem</label>
-                <textarea id="message" rows="5"></textarea>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Digite sua mensagem"
+                ></textarea>
                 <button type="submit">Enviar</button>
               </div>
             </div>
@@ -57,6 +69,6 @@ export default function Contact() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
