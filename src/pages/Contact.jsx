@@ -30,8 +30,8 @@ export default function Contact() {
         </div>
 
         <div className="container-form">
-          <h2>Contate-me!</h2>
           <form>
+            <h2>Contate-me!</h2>
             <div className="form-group">
               <div className="form-left">
                 <label htmlFor="name">

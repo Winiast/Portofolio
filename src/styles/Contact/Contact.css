@@ -1,7 +1,6 @@
 .container-contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #222222;
 }
@@ -108,53 +107,52 @@
   color: #fff;
 }
 
-/* .container-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-inline: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.container-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.container-form h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-family: "Popins";
-  color: white;
-}
-
-.form-group {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #fff;
-}
-
-.form-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-  padding: 20px;
-} */
-
 @media screen and (min-width: 728px) {
   .form-group {
     flex-direction: row;
+  }
+
+  .container-contact {
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-around;
+  }
+
+  .container-form {
+    width: 50%;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .form-left {
+    padding: 0;
+    width: 50%;
+  }
+
+  .form-left label {
+    width: 100%;
+  }
+
+  .form-left label input {
+    width: 100%;
+  }
+
+  .assunto {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .assunto #message {
+    height: 150px;
   }
 }
