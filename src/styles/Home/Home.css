@@ -1,19 +1,21 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container-about {
   display: flex;
   flex-direction: column;
   background-color: #222222;
-  padding-top: 20px;
+  padding-top: 30px;
+  height: 75vh;
+  padding-bottom: 30px;
 }
 
 .about-image img {
   border-radius: 50%;
   width: 80%;
-  height: 100%;
 }
 
 .about-image {
@@ -79,6 +81,7 @@
   font-weight: 400;
   font-size: 1.2rem;
   padding: 20px;
+  margin: 15px;
   text-align: center;
   border-radius: 30px;
   color: #ffffff;

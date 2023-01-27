@@ -3,6 +3,7 @@
 }
 
 .navbar {
+  height: 15vh;
   padding: 10px;
 }
 .navbar__links ul a {

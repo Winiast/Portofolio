@@ -2,16 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #222222;
 }
 
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
   --primary-font: "Roboto", sans-serif;
-}
-
-.container-home {
-  background-color: #222222;
-  height: 100vh;
 }

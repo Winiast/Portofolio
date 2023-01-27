@@ -9,7 +9,7 @@ import "../styles/Skills/Skills.css";
 
 export default function Skills() {
   return (
-    <>
+    <div>
       <Header />
       <div className="container-body-skills">
         <TextContentCenter title="Front-end Skills" />
@@ -126,6 +126,6 @@ export default function Skills() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

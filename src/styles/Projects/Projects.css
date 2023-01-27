@@ -1,7 +1,7 @@
 .container-portf {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 75vh;
   background-color: #222222;
 }
 
@@ -19,10 +19,13 @@
   margin-bottom: 20px;
 }
 
+.filter-container h2 {
+  text-align: center;
+}
+
 .filter-container ul {
   display: flex;
   list-style: none;
-  width: 100vw;
   justify-content: space-around;
 }
 
@@ -68,6 +71,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
 }

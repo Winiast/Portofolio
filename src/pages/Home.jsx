@@ -5,7 +5,7 @@ import "../styles/Home/Home.css";
 
 export default function Home() {
   return (
-    <>
+    <div className="home">
       <Header />
       <section>
         <div className="container-about">
@@ -35,6 +35,6 @@ export default function Home() {
         </div>
       </section>
       <Footer />
-    </>
+    </div>
   );
 }

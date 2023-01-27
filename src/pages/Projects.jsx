@@ -9,10 +9,10 @@ function Projects() {
   return (
     <div className="projects">
       <Header />
-      <TextContentCenter title="Projetos" />
       <div className="container-portf">
-        <h2 className="title">Projetos</h2>
+        <TextContentCenter title="Projetos" />
         <div className="filter-container">
+          <h2 className="title">Projetos</h2>
           <ul>
             <li>
               <button>All</button>
